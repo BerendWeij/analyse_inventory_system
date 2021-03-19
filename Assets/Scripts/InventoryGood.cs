@@ -29,6 +29,7 @@ public class InventoryGood {
         var currentItem = _items[type];
         
         // en we kunnen nog iets doen met het gekozen item
+        // om dit te laten zien haal ik een letter van het woord af (wat natuurlijk nergens op slaat Berend...)
         currentItem = currentItem.Substring(1);
         
         return currentItem;
